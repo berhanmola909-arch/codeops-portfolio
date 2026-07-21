@@ -1,5 +1,6 @@
 stock = {}
 
+
 try:
   with open("stock.txt") as file:
     for line in file:
@@ -13,7 +14,6 @@ def adjust(item,amount):
   with open("stock.txt", "w") as file:
     for items, qty in stock.items():
       file.write(f"{items},{qty}\n")
-
 
 
 adjust( "Paracetamol" ,300)

@@ -1,7 +1,7 @@
 #question 1:- unique cities
 def uniqe_cities():
 
-  cities = ["Addis Ababa","Dredewa","Jima","Adama","Bishoftu","Bahir Dar","Jima","Adama"]
+  cities = ["Addis Ababa","Diredewa","Jima","Adama","Bishoftu","Bahir Dar","Jima","Adama"]
 
   print(set(cities))
   print(len(set(cities)))
@@ -40,7 +40,7 @@ def cheap_items():
 def write_read():
 
   with open("names.txt", "w") as file:
-    file.write("Mahlet Belay\n")
+    file.write("Mahlet Belaye\n")
     file.write("Melat Gebeyeu\n")
     file.write("Natnael Kebede\n")
 
@@ -49,7 +49,7 @@ def write_read():
       print(line.strip())
 
 
-#question 6:- safe devision
+#question 6:- safe itdevision
 
 def safe_devision():
 
@@ -72,6 +72,7 @@ def safe_devision():
 #tax_comprehension()
 #cheap_items()
 #write_read()
+
 print(safe_devision())
 
     
