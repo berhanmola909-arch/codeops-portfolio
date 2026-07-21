@@ -1,6 +1,5 @@
 #In this practice i created all the class for the 5 question above here and i created the objects and everything else needed after writing all the classes for the 5 questions.
-
-#question 1: book class
+# equation 1: Book class
 class book:
   def __init__(self,title,author,pages):
     self.title = title
@@ -99,22 +98,3 @@ print(microwave.quantity)
 # print(flat_tv.quantity)
 # flat_tv.restock(10)
 # print(flat_tv.quantity)
-
-
-
-#question 1 objects
-
-
-# the_power_of_now = book("The power of now","Eckhart Tolle",256)
-# the_seven_habits_of_highly_effective_people = book("the seven habits of highly effective people"," Stephen R. Covey.", 464)
-
-# the_power_of_now.describe("The power of nowe teaches that all your suffering stems from living in the past or future, and that true peace is found only by fully anchoring your awareness in the present moment.")
-
-# the_seven_habits_of_highly_effective_people.describe("The seven habits of highly effective people teaches that Proactively take charge of your life, focus your energy on what you can influence, and continuously renew your physical, mental, and social well-being to achieve mutually beneficial, long-term success.")
-
-
-# to check the other objects just uncomment them
-
-
-
-    

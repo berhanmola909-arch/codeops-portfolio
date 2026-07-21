@@ -20,16 +20,16 @@ class Account:
      return self.balance
   
   
-Berhan = Account("Berhan mola",100023467891,100000000)
+Berhan = Account("Berhan mola",1000226231408,10000000)
 #Before deposit
 print(Berhan.balance)  
 
-Berhan.deposit(1000000)
+Berhan.deposit(3000000)
 
 #After deposit
 print(Berhan.balance)  
 
-Berhan.withdraw(1000000)
+Berhan.withdraw(1500000)
 #After withdraw
 print(Berhan.balance)  
 
