@@ -1,3 +1,6 @@
+from day04.account import Berhan
+
+
 class Account:
   def __init__(self,owner,acc_number,balance=0):
     self.owner = owner 
@@ -45,11 +48,11 @@ class CurrentAccount(Account):
   
   
 haymi = CurrentAccount("haymi amare",100023467891,8000000)
-Nahom = SavingAcount("Nahom Natnael",100023467891,8000000)
+Nahom = SavingAcount("berhan mola",100023467891,8000000)
 
 haymi.withdraw(100)
 print(haymi.balance)
 
 print(haymi.statement())
-print(Nahom.statement())
+print(Berhan.statement())
 
