@@ -24,7 +24,7 @@ for name, balance in customer:
   elif(tier(balance)=="Standard"):
     standard +=1
   elif(tier(balance)=="Basic"):
-    basic +=1
+     basic +=1
 
 print (f"number of customers on premium tier:{premium}")
 print (f"number of customers on standard tier:{standard}")

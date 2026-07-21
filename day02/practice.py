@@ -38,7 +38,7 @@ def countdown():
 
 
   
-  # here is were i called the functions, to excute the functions just remove the hashtag sign infront of the function you want to excute and run the python file. as an example i left the first function active
+  #here is were i called the functions, to excute the functions just remove the hashtag sign infront of the function you want to excute and run the python file. as an example i left the first function active
   
 
 print(temp_label())
