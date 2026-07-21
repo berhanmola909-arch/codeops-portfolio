@@ -44,7 +44,7 @@ class CurrentAccount(Account):
      return self.balance
   
   
-haymi = CurrentAccount("haymi Kebede",100023467891,8000000)
+haymi = CurrentAccount("haymi amare",100023467891,8000000)
 Nahom = SavingAcount("Nahom Natnael",100023467891,8000000)
 
 haymi.withdraw(100)
