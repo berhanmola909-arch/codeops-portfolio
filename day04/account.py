@@ -20,7 +20,7 @@ class Account:
      return self.balance
   
   
-Berhan = Account("Berhan mola",100023467891,8000000)
+Berhan = Account("Berhan mola",100023467891,100000000)
 #Before deposit
 print(Berhan.balance)  
 
