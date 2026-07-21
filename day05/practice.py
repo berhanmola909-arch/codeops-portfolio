@@ -127,7 +127,7 @@ print(byd.wheels)
 print(ford.wheels)
 
 
-# I commented the other questions class so to excute them remove the comment, comment out the currently active class and excute .
+
 
 
 

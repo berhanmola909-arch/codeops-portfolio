@@ -1,9 +1,6 @@
-from day04.account import Berhan
-
-
 class Account:
   def __init__(self,owner,acc_number,balance=0):
-    self.owner = owner 
+    self.owner = owner
     self.acc_number = acc_number
     self.__balance = balance
   @property
@@ -35,24 +32,23 @@ class SavingAcount(Account):
     return (f"Type:- saving Account \n owner:-{self.owner} \n account number:-{self.acc_number}")
 
 class CurrentAccount(Account):
-  def __init__(self, owner, acc_number, balance=0, overdraft=1000):
+  def __init__(self, owner, acc_number, balance=0, overdraft=1000000):
     super().__init__(owner, acc_number, balance)
     self.overdraft = overdraft
   def statement(self):
     return (f"Type: Current Account \n owner:-{self.owner} \naccount number:-{self.acc_number}")
   def withdraw(self,ammount):
      if ammount > self.overdraft:
-       raise ValueError ("The overdraft limit is 1000")
+       raise ValueError ("The overdraft limit is 1000000")
      self.balance -=ammount
      return self.balance
   
   
-haymi = CurrentAccount("Haymi Amare",100023467891,8000000)
-Nahom = SavingAcount("Berhan Mola",100023467891,8000000)
+Berhan = CurrentAccount("Berhan Mola",1000226231408,10000000)
+Haymi = SavingAcount("Haymi Amare",100023467891,8000000)
 
-haymi.withdraw(100)
-print(Haymi.balance)
+Berhan.withdraw(900000)
+print(Berhan.balance)
 
-print(Haymi.statement())
 print(Berhan.statement())
-
+print(Haymi.statement())
