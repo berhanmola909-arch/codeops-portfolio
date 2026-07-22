@@ -1,6 +1,0 @@
-Paracetamol,1100
-Amoxicillin,500
-Metformin,4
-Blood Pressure Monitor,9
-Thermometer,492
-Blood Glucose Monitor (Glucometer),450
