@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethiopian Airlines – Booking Results</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+
+    <!-- HEADER (sticky) -->
+    <header class="app-header">
+      <nav class="navbar">
+        <div class="logo">Ethiopian Airlines</div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">My Trips</a></li>
+          <li><a href="#">Check‑in</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- SIDEBAR (filters) -->
+    <aside class="sidebar">
+      <h3>Filters</h3>
+      <div class="filter-group">
+        <label>Stops</label>
+        <select>
+          <option>Any</option>
+          <option>Direct only</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Price range</label>
+        <input type="range" min="300" max="2000" value="800">
+        <span>$300 – $2000</span>
+      </div>
+      <div class="filter-group">
+        <label>Departure time</label>
+        <select>
+          <option>Morning</option>
+          <option>Afternoon</option>
+          <option>Evening</option>
+        </select>
+      </div>
+      <button class="apply-btn">Apply</button>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      <div class="toolbar">
+        <div class="sort-buttons">
+          <span>Sort by:</span>
+          <button>Price</button>
+          <button>Duration</button>
+          <button>Departure</button>
+        </div>
+        <div class="results-info">12 flights found</div>
+      </div>
+
+      <!-- Flight cards grid -->
+      <div class="cards">
+        <div class="flight-card">
+          <span class="badge">Best Price</span>
+          <div class="route">ADD → LHR</div>
+          <div class="details">ET 700 · Direct · 7h 30m</div>
+          <div class="price">$645</div>
+        </div>
+        <div class="flight-card">
+          <div class="route">ADD → DXB</div>
+          <div class="details">ET 600 · Direct · 4h 15m</div>
+          <div class="price">$480</div>
+        </div>
+        <div class="flight-card">
+          <span class="badge">Popular</span>
+          <div class="route">ADD → NBO</div>
+          <div class="details">ET 800 · Direct · 2h 10m</div>
+          <div class="price">$320</div>
+        </div>
+        <div class="flight-card">
+          <div class="route">ADD → JNB</div>
+          <div class="details">ET 809 · 1 stop · 8h 05m</div>
+          <div class="price">$550</div>
+        </div>
+        <div class="flight-card">
+          <div class="route">ADD → FRA</div>
+          <div class="details">ET 706 · Direct · 7h 55m</div>
+          <div class="price">$790</div>
+        </div>
+        <div class="flight-card">
+          <div class="route">ADD → CDG</div>
+          <div class="details">ET 704 · Direct · 8h 10m</div>
+          <div class="price">$820</div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="app-footer">
+      <p>&copy; 2025 Ethiopian Airlines. All rights reserved.</p>
+    </footer>
+
+  </div>
+</body>
+</html>

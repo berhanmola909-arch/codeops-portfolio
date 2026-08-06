@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beginner CSS Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ====== QUESTION 1 ====== -->
+    <!-- A button using :root variables -->
+    <section class="q1">
+        <h2>1. Button using CSS variables</h2>
+        <button class="my-btn">Click me</button>
+    </section>
+
+    <!-- ====== QUESTION 2 ====== -->
+    <!-- A 300px card with 24px padding, 2px border -->
+    <section class="q2">
+        <h2>2. Box model: content-box vs border-box</h2>
+        <div class="card content-box">content-box card (renders wider than 300px)</div>
+        <div class="card border-box">border-box card (exactly 300px)</div>
+    </section>
+
+    <!-- ====== QUESTION 3 ====== -->
+    <!-- A paragraph with element, class, ID rules -->
+    <section class="q3">
+        <h2>3. Specificity: ID wins</h2>
+        <p id="winner" class="loser">This paragraph is red because the ID has higher specificity.</p>
+    </section>
+
+    <!-- ====== QUESTION 4 ====== -->
+    <!-- Ethiopian Airlines schedule table -->
+    <section class="q4">
+        <h2>4. Ethiopian Airlines Schedule</h2>
+        <table class="schedule">
+            <thead>
+                <tr>
+                    <th>Flight</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Departure</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ET 700</td>
+                    <td>Addis Ababa</td>
+                    <td>London</td>
+                    <td>08:00</td>
+                </tr>
+                <tr>
+                    <td>ET 701</td>
+                    <td>London</td>
+                    <td>Addis Ababa</td>
+                    <td>10:30</td>
+                </tr>
+                <tr>
+                    <td>ET 600</td>
+                    <td>Addis Ababa</td>
+                    <td>Dubai</td>
+                    <td>09:15</td>
+                </tr>
+                <tr>
+                    <td>ET 601</td>
+                    <td>Dubai</td>
+                    <td>Addis Ababa</td>
+                    <td>12:45</td>
+                </tr>
+                <tr>
+                    <td>ET 800</td>
+                    <td>Addis Ababa</td>
+                    <td>Nairobi</td>
+                    <td>07:30</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- ====== QUESTION 5 ====== -->
+    <!-- Three-color hex palette converted to rgb and hsl, with hover -->
+    <section class="q5">
+        <h2>5. Color palette: hex → rgb → hsl (hover lighter)</h2>
+        <div class="swatch" id="swatch1">#3498db</div>
+        <div class="swatch" id="swatch2">#2ecc71</div>
+        <div class="swatch" id="swatch3">#e74c3c</div>
+        <p class="note">Hover to see lighter hsl version (lightness increased).</p>
+    </section>
+
+</body>
+</html>

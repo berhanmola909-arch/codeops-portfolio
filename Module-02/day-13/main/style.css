@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+:root {
+    --bg: #fff;
+    --border: #ccc;
+    --accent: gold;
+    --text: #333;
+    --stripe-even: #f9f9f9;
+    --stripe-odd: #fff;
+    --price-color: #000;
+    --hover-bg: #fafafa;
+}
+
+.menu-card {
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-top: 5px solid var(--accent);
+    background: var(--bg);
+    color: var(--text);
+    max-width: 300px;
+}
+
+.menu-card:hover {
+    background: var(--hover-bg);
+}
+
+.ingredients li {
+    padding: 5px;
+}
+
+.ingredients li:nth-child(even) {
+    background: var(--stripe-even);
+}
+
+.ingredients li:nth-child(odd) {
+    background: var(--stripe-odd);
+}
+
+.price::before {
+    content: "ETB ";
+}

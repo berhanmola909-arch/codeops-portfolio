@@ -1,0 +1,142 @@
+/* Question 1 */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  padding: 1rem 2rem;
+  color: white;
+}
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.nav-btn {
+  background: #e63946;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+}
+
+/* Question 2 */
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 20px 0;
+}
+.card-item {
+  flex: 1;
+  min-width: 150px;
+  background: #f0f0f0;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+/* Question 3 */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+/* Question 4 */
+.page-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  height: 300px;
+  border: 2px solid #333;
+  margin: 20px 0;
+}
+.page-header {
+  grid-area: header;
+  background: #1b5e20;
+  color: white;
+  padding: 1rem;
+}
+.page-sidebar {
+  grid-area: sidebar;
+  background: #ddd;
+  padding: 1rem;
+}
+.page-main {
+  grid-area: main;
+  background: #f9f9f9;
+  padding: 1rem;
+}
+.page-footer {
+  grid-area: footer;
+  background: #333;
+  color: white;
+  padding: 1rem;
+}
+@media (max-width: 700px) {
+  .page-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "main"
+      "footer";
+  }
+}
+
+/* Question 5 */
+.product-card {
+  position: relative;
+  width: 220px;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 20px 0;
+  background: #fff;
+}
+.product-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #e63946;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-image {
+  width: 100%;
+  height: 120px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
