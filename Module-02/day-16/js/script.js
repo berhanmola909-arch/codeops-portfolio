@@ -8,10 +8,10 @@ let PerPerson = 0
 let total = 0 
 
 if (bill > 300 ){
-  total = bill + 30
+  total = bill +(bill*0.1) 
 }
 else {
-  total = bill + 15
+  total = bill + (bill*0.05)
 }
 PerPerson = total/partySize
 
@@ -22,7 +22,7 @@ switch(payment_method){
 
   case "telebirr":
     console.log("you used telebirr for payment")
-    break;
+    break; 
 
   case "cbe":
     console.log("you used CBE for payment")
