@@ -1,0 +1,33 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Addis Market List</title>
+  <style>
+    .bought {
+      text-decoration: line-through;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Addis Market List</h1>
+
+  <!-- Form to add items -->
+  <form id="addForm">
+    <input type="text" id="itemName" placeholder="Item name (e.g. Teff)">
+    <input type="number" id="itemPrice" placeholder="Price in ETB">
+    <button type="submit">Add Item</button>
+  </form>
+
+  <!-- Live running total -->
+  <h3>Total: <span id="totalPrice">0</span> ETB</h3>
+
+  <!-- List container -->
+  <ul id="marketList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
