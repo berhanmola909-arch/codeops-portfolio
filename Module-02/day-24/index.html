@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Addis Eats</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Addis Eats</h1>
+    <input type="text" id="search" placeholder="Search dishes...">
+  </header>
+
+  <main>
+    <section id="menu"></section>
+
+    <aside id="sidebar">
+      <div id="cart"></div>
+
+      <!-- Checkout Form -->
+      <form id="checkout" novalidate>
+        <h3>Checkout</h3>
+        <label>Name:
+          <input type="text" id="name" placeholder="Your Name" />
+        </label>
+        
+        <label>Phone (TeleBirr):
+          <input type="tel" id="phone" placeholder="0912345678" />
+        </label>
+
+        <label>Delivery Area:
+          <select id="area">
+            <option value="Bole">Bole</option>
+            <option value="Kazanchis">Kazanchis</option>
+            <option value="Megenagna">Megenagna</option>
+          </select>
+        </label>
+
+        <p id="form-error" class="error"></p>
+        <p id="order-success" class="success"></p>
+        <button type="submit">Place Order</button>
+      </form>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Bole, Addis Ababa | TeleBirr</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
