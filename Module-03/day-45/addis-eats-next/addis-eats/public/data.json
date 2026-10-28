@@ -1,0 +1,123 @@
+{
+  "categories": [
+    { "id": "breakfast", "name": "Breakfast" },
+    { "id": "main-dishes", "name": "Main Dishes" },
+    { "id": "vegetarian", "name": "Vegetarian" },
+    { "id": "tibs-special", "name": "Tibs & Specials" },
+    { "id": "drinks", "name": "Drinks" }
+  ],
+  "items": [
+    {
+      "id": "m1",
+      "name": "Bula Genfo",
+      "description": "A dish made with fermented barley dough and topped with spicy butter.",
+      "price": 8.99,
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=400",
+      "category": "breakfast"
+    },
+    {
+      "id": "m2",
+      "name": "Chechebsa",
+      "description": "A combination of shredded injera with spiced butter.",
+      "price": 9.50,
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400",
+      "category": "breakfast"
+    },
+    {
+      "id": "m3",
+      "name": "Inqulal Firfir",
+      "description": "Scrambled eggs served with a side of bread.",
+      "price": 7.99,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400",
+      "category": "breakfast"
+    },
+    {
+      "id": "m4",
+      "name": "Doro Wot",
+      "description": "A traditional Ethiopian spicy chicken stew served with injera.",
+      "price": 18.99,
+      "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400",
+      "category": "main-dishes"
+    },
+    {
+      "id": "m5",
+      "name": "Kitfo",
+      "description": "Lean minced beef prepared with Ethiopian butter, available raw, medium, or well done.",
+      "price": 16.50,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
+      "category": "main-dishes"
+    },
+    {
+      "id": "m6",
+      "name": "Key Wot",
+      "description": "Cubes of beef cooked with diced onion in an Ethiopian spice mix.",
+      "price": 17.25,
+      "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=400",
+      "category": "main-dishes"
+    },
+    {
+      "id": "m7",
+      "name": "Shiro Wot",
+      "description": "A creamy chickpea stew, well spiced and simmered slowly.",
+      "price": 12.99,
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400",
+      "category": "vegetarian"
+    },
+    {
+      "id": "m8",
+      "name": "Misir Wot",
+      "description": "Prepared from red lentil, berbere, and assorted spices.",
+      "price": 12.50,
+      "image": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=400",
+      "category": "vegetarian"
+    },
+    {
+      "id": "m9",
+      "name": "Gomen",
+      "description": "Collard greens cooked with onions and assorted spices.",
+      "price": 11.99,
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400",
+      "category": "vegetarian"
+    },
+    {
+      "id": "m10",
+      "name": "Yebeg Tibs",
+      "description": "Stir-fried beef with vegetables and spices.",
+      "price": 19.99,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
+      "category": "tibs-special"
+    },
+    {
+      "id": "m11",
+      "name": "Doro Firfir",
+      "description": "A spicy chicken dish served with injera.",
+      "price": 15.99,
+      "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400",
+      "category": "tibs-special"
+    },
+    {
+      "id": "m12",
+      "name": "Special Kitfo",
+      "description": "Minced raw beef dish mixed with spiced butter.",
+      "price": 22.00,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
+      "category": "tibs-special"
+    },
+    {
+      "id": "m13",
+      "name": "Ethiopian Coffee",
+      "description": "Traditional Ethiopian coffee, freshly roasted and brewed.",
+      "price": 4.50,
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400",
+      "category": "drinks"
+    },
+    {
+      "id": "m14",
+      "name": "Tej",
+      "description": "Traditional Ethiopian honey wine.",
+      "price": 6.00,
+      "image": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=400",
+      "category": "drinks"
+    }
+  ]
+}
